@@ -1,0 +1,107 @@
+/*
+File: index.html
+91.461 Assignment: Upgrading Your First Web Page with css
+file created : 10/10/18
+This web page simply shows some informations implementing the tags introduces in class
+updated on October 10, 2018 at 8:02 PM
+ */
+
+h1{
+  font-family: Impact, Charcoal, sans-serif;
+  color: #ff1a1a;
+  /*main title of the website*/
+}
+body{
+  background-color: #ccffdd;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  min-width: 700px;
+  max-height: 1000px;
+  min-height: 600px
+  /*body that I have centered horizontally and set the width
+  within a fixed range*/
+}
+
+#navbar {
+  display: inline-block;
+  margin-top: 0;
+	font-size: 1.2em;
+  list-style-type: none;
+  border-radius: 15px;
+	background-color: #90c8e3;
+  font-style: normal;
+  font-weight: bold;
+  min-width: 100%;
+  /*made a navbar that has combined things of excercise 2 and hw3*/
+}
+
+li{
+display:inline-block;
+margin-left: auto;
+margin-right: auto;
+padding-right: 15px;
+/*allows horizontal navbar*/
+}
+a{
+text-decoration: none;
+/*removal of the undelines of links*/
+}
+ .about{
+   font-size: 2em;
+   font-family: cursive;
+   font-style: italic;
+   margin-left: auto;
+   margin-right: auto;
+   /*changing font and stule of the about header*/
+ }
+.p{
+  font-size: 1.2em;
+  /*text size changed*/
+  }
+.info{
+color: #8585e0;
+padding: 10px;
+display:block;
+float: right;
+border-style: solid;
+border-color: red blue green black;
+/*this float block is set to the right and
+has a colorful border*/
+}
+.title2{
+  font-size: 1.3em;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  /*coiinfigure font and making an underline*/
+}
+.fact{
+  font-size: 0.9em;
+  /*changing size of text*/
+}
+.text{
+  background-color: #99ff99;
+  padding: 25px;
+  min-width: 75%;
+  min-height: 80%;
+  /*color change and setting positioning of th etext portion of the page*/
+}
+.picture{
+  float: left;
+  padding-bottom: 20px;
+  /*making the picture and its caption as a float
+  that can wrap around text if needed*/
+}
+.caption{
+  color: #e62e00;
+  font-style: oblique;
+  max-width: 20%;
+/*set text to oblique and have a limit to width for captioning picture*/
+}
+p{
+  color:#00004d;
+ text-transform: uppercase;
+ /* uppercase text*/
+}
