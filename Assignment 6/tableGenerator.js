@@ -7,6 +7,10 @@ This file is the html for the Multiplication Table Generator, that can take user
 input interval lower first then higher, and dynamicly create a table based on the intervals
 I intended to add more color to the table but am unable to figure out how to
 configure the properties of each cell.
+
+I have not added an error catch if the end numbers entered are higher than start numbers
+But the forms should only allow numbners to be inputed.
+
 updated on November 11, 2018 at 10:02 PM
  */
 
