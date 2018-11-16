@@ -1,0 +1,45 @@
+<!--
+File: index.html
+91.461 Assignment: Multiplication Table Generator
+created by : Stanley Chan
+file created : 11/15/18
+This file is the html for the Multiplication Table Generator, that can take user
+input interval lower first then higher, and dynamicly create a table based on the intervals
+Main source of reference was from w3schools.com
+updated on November 11, 2018 at 10:02 PM
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="web.css">
+  <script src="tableGenerator.js"></script>
+</head>
+<body>
+  <div id = "generator">
+  <header>Multiplication Table Generator </header>
+    <form action="/action_page.php">
+      <div id = "label">Enter a valid number to start multiplicand :</div>
+      <input type="number" id = "mutiplicandStart" value="1">
+        <br><br>
+      <div id = "label">Enter a valid number to end  multiplicand :</div>
+      <input type="number"  id = "mutiplicandEnd" value="5">
+        <br><br><br>
+      <div id = "label">Enter a valid number to start multiplier :</div>
+      <input type="number"  id = "multiplierStart" value="1">
+        <br><br>
+      <div id = "label">Enter a valid number to end multiplier :</div>
+      <input type="number" id = "multiplierEnd"value="5">
+        <br><br><br>
+    </form>
+    <input type = "button" onclick="create()" value = "Generate">
+</div>
+<div id = "box">
+<table id = table> </ table>
+</div>
+
+
+</body>
+
+</html>
