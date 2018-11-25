@@ -1,0 +1,47 @@
+/*
+File: web.css
+91.461 Assignment: Multiplication Table Generator
+created by : Stanley Chan
+file created : 11/15/18
+This file is the html for the Multiplication Table Generator, that can take user
+input interval lower first then higher, and dynamicly create a table based on the intervals
+This css file has very bare styling , just center everything and give a little colors
+updated on November 25, 2018 at 10:02 PM
+*/
+
+body{
+  background-color: #ccffdd;
+}
+#generator{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  background-color: #ffcccc;
+  /*body that I have centered horizontally and set the width
+  within a fixed range*/
+}
+#box{
+  background-color: inherit;
+  max-width: inherit;
+  margin: auto;
+  padding: 25px;
+}
+table{
+  border-collapse: collapse;
+}
+table, td, tr {
+    background-color: #b3d7ff;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.grey{
+  background-color: #AEB2BD;
+}
+.white{
+  background-color: #FFFFFF;
+}
+.main{
+  background-color: #820DE7;
+}

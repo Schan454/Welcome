@@ -1,0 +1,52 @@
+<!--
+File: index.html
+91.461 Assignment: Multiplication Table Generator
+created by : Stanley Chan
+file created : 11/15/18
+This file is the html for the Multiplication Table Generator, that can take user
+input interval lower first then higher, and dynamicly create a table based on the intervals
+Main source of reference was from w3schools.com
+updated on November 25, 2018 at 10:02 PM
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="web.css">
+
+
+</head>
+<body>
+  <div id = "generator">
+    <a href="https://schan454.github.io/Welcome/""> Go Home </a>
+  <header>Multiplication Table Generator </header>
+    <form id="form">
+      <div id = "label">Enter a valid number to start multiplicand :</div>
+      <input type="text" class="form-control required digits" id = "mutiplicandStart" value="">
+        <br><br>
+      <div id = "label">Enter a valid number to end  multiplicand :</div>
+      <input type="text"  class="form-control required digits" id = "mutiplicandEnd" value="">
+        <br><br><br>
+      <div id = "label">Enter a valid number to start multiplier :</div>
+      <input type="text"  class="form-control required digits" id = "multiplierStart" value="">
+        <br><br>
+      <div id = "label">Enter a valid number to end multiplier :</div>
+      <input type="text"  class="form-control required digits" id = "multiplierEnd"value="">
+        <br><br><br>
+    </form>
+    <input  id= "button" type = "button" onclick="create()" value = "Generate">
+</div>
+<div id = "box">
+<table id = table> </ table>
+</div>
+
+  <script src="scripts/jquery-3.1.1.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script src= "scripts/jquery.validate.js"></script>
+<!--<script src= "scripts/newJQScript.js"></script> -->
+<script src="scripts/tableGenerator.js"></script>
+
+</body>
+
+</html>
