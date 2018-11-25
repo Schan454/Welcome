@@ -56,7 +56,7 @@ function create() {
   }
 
   // error handling for input
-
+  var colorSkip = 0;
   table += "<tr >";
   table += '<td style ="background-color: red ">' + " " + '</td>'
   for (var init = colStart; init <= colEnd; init ++)
@@ -64,7 +64,7 @@ function create() {
     table += '<td style ="background-color: green">' + init + ' </td>';
     // intital multiplier
   }
-  var colorSkip = 0;
+
   table += '</tr>';
   for (var r = rowStart; r <= rowEnd; r++)
   {
