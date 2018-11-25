@@ -8,8 +8,10 @@ input interval lower first then higher, and dynamicly create a table based on th
 I intended to add more color to the table but am unable to figure out how to
 configure the properties of each cell.
 
-I have not added an error catch if the end numbers entered are higher than start numbers
-But the forms should only allow numbners to be inputed.
+some notes: Sometimes the generator will be buggy, and I have yet to see what the root of this is.
+For assignment 7 I have added styling for the table, only able to by inline css, and incorporated
+the jquery validator for the input form fields. The validator will check if the fields are digits
+and are required if the user hits generate without entering all the inputs.
 
 updated on November 25, 2018 at 10:02 PM
  */
@@ -82,7 +84,7 @@ function create() {
       colorSkip++;
     }
     table += '</tr>';
-    // i used inline css as that is the only way i know how to to style the table
+    // I used inline css as that is the only way i know how to to style the table
   }
 
   document.getElementById("table").innerHTML = table;
