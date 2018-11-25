@@ -18,8 +18,6 @@ updated on November 25, 2018 at 10:02 PM
    $("#form").validate();
  });
 
- });
-
 
 
 'use strict';
