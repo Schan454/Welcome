@@ -1,0 +1,114 @@
+<!--
+File: index.html
+91.461 Assignment: Multiplication Table Generator
+created by : Stanley Chan
+file created : 11/15/18
+This file is the html for the Multiplication Table Generator, that can take user
+input interval lower first then higher, and dynamicly create a table based on the intervals
+Main source of reference was from w3schools.com
+updated on November 25, 2018 at 10:02 PM
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<link rel="stylesheet" href="css/web.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">	
+
+</head>
+<body>
+  <div id = "generator">
+    <a href="https://schan454.github.io/Welcome/""> Go Home </a>
+  <header>Multiplication Table Generator </header>
+    <form id="form">
+      <div id = "label">Enter a valid number from 0 to 9 to start multiplicand :</div>
+      <input type="text" class="inputs form-control required digits" id = "mutiplicandStart" value="0">
+        <br><br>
+		<div id="slider1" class = "slider"> </div>
+		<br>
+      <div id = "label">Enter a valid number from 0 to 9 to end  multiplicand :</div>
+      <input type="text"  class="inputs form-control required digits" id = "mutiplicandEnd" value="0">
+        <br><br>
+		<div id="slider2" class = "slider"> </div>
+		<br>
+      <div id = "label">Enter a valid number from 0 to 9 to start multiplier :</div>
+      <input type="text"  class="inputs form-control required digits" id = "multiplierStart" value="0">
+        <br><br>
+		<div id="slider3" class = "slider"> </div>
+		<br>
+      <div id = "label">Enter a valid number from 0 to 9 to end multiplier :</div>
+      <input type="text"  class=" inputs form-control required digits" id = "multiplierEnd"value="0">
+        <br><br>
+		<div id="slider4" class = "slider"> </div>
+		<br>
+    </form>
+	
+    <input  id= "button" type = "button" onclick="saveTab()" value = "Save">
+	<input  id= "button" type = "button" onclick="deleteTab()" value = "Delete">
+	<input  id= "button" type = "button" onclick="deleteAll()" value = "Delete All">
+</div>
+<div id = "box">
+<table id = "table"> </ table>
+</div>
+
+<div id = "tabs">
+	<ul>
+	<li><a href="#tabs-1">tab 1</a></li>
+	<li><a href="#tabs-2">tab 2</a></li>
+	<li><a href="#tabs-3">tab 3</a></li>
+	<li><a href="#tabs-4">tab 4</a></li>
+	<li><a href="#tabs-5">tab 5</a></li>
+	<li><a href="#tabs-6">tab 6</a></li>
+	<li><a href="#tabs-7">tab 7</a></li>
+	<li><a href="#tabs-8">tab 8</a></li>
+	<li><a href="#tabs-9">tab 9</a></li>
+	<li><a href="#tabs-10">tab 10</a></li>
+	</ul>
+	<div id ="tabs-1"> 
+	<table id = "table" name = "tab1"> </ table>	
+	<p></p>
+	</div>
+	<div id ="tabs-2"> 
+	<table id = "table" name = "tab2">  </ table>
+	<p></p>
+	</div>
+	<div id ="tabs-3"> 
+	<table id = "table" name = "tab3"> </ table>
+	<p></p>
+	</div>
+	<div id ="tabs-4"> 
+	<table id = "table" name = "tab4"> </ table>
+	</div>
+	<div id ="tabs-5"> 
+	<table id = "table" name = "tab5"> </ table>
+	</div>
+	<div id ="tabs-6"> 
+	<table id = "table" name = "tab6"> </ table>
+	</div>
+	<div id ="tabs-7"> 
+	<table id = "table" name = "tab7"> </ table>
+	</div>
+	<div id ="tabs-8"> 
+	<table id = "table" name = "tab8"> </ table>
+	</div>
+	<div id ="tabs-9"> 
+	<table id = "table" name = "tab9"> </ table>
+	</div>
+	<div id ="tabs-10"> 
+	<table id = "table" name = "tab10"> </ table>
+	</div>
+	
+	
+</div>
+
+<script src="scripts/jquery-3.1.1.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script src= "scripts/jquery.validate.js"></script>
+<!--<script src= "scripts/newJQScript.js"></script> -->
+<script src="scripts/jquery-ui.js"></script>
+<script src="scripts/tableGenerator.js"></script>
+
+</body>
+
+</html>
