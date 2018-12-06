@@ -183,7 +183,7 @@ function saveTab(){
 	document.getElementsByClassName("table")
 currentTabs++;
 //  theoretically this button should save the tablle you currently have and get ready to save in the next tab.
-
+//I tried to limit the tabs to 10
 }
 function deleteTab(){ 
 
