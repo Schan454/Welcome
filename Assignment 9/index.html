@@ -1,0 +1,69 @@
+<!--
+	File: index.html
+91.461 Assignment: Scrabble-like  game
+created by : Stanley Chan
+file created : 12/17/18
+This file is the html for the Simple Scrabble-like game.
+	-	You will have a hand of 7  random tiles
+	-	You can construct words on the available board
+	- 	Based on the letters used you will gain differing amount of points
+	-	There are some bonus spots that will give extra points: multipler for word or letter-spacing
+	-	You can submit the word, which will be removed,  to get more pieces to get more points
+	
+Main source of reference was from w3schools.com
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	 <meta charset="utf-8">
+	  <link rel="stylesheet" href="css/css.css">
+	  <link rel="stylesheet" href="css/jquery-ui.css">	
+	</head>
+	
+	<body>
+		
+		<div id = "board" >
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			<div class= "spaces" id= "space"> </div>
+			
+			
+			
+		</div>
+	
+		<div id ="hand" >
+			
+		
+		
+		</div>
+		<div id="ScoreBoard">
+		Points: 0
+		</div>
+		
+		<input id="submit" type="submit" value="Submit"></input>
+	
+		<input id="reset" type="submit" value="Reset"></input>
+	
+	
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/scrabble.js"></script>
+		<!--<script src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script> -->
+	
+	</body>
+</html>

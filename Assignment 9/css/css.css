@@ -1,0 +1,59 @@
+/*
+This is my css file
+I made adjustments based on needs of how to make the site look better
+overall the site is not functional so this is not he main focus
+*/
+
+body {
+  background-color: powderblue;
+  width: 100%;
+  height : 100%;
+  margin: center;
+  
+}
+
+#board{
+	margin: center;
+	display:flex;
+	background-color: auto;
+	background-image: url("../img/Scrabble_Board_OneLine.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	min-height: 150px;
+	z-index: 0;
+	width: auto;
+}
+.spaces:first-child{
+padding-left: 40px;
+}
+.spaces{
+padding-left: 10px;
+padding-right: 10px;
+min-height: 100px;
+max-width: 80px;
+min-width:80px;
+z-index: 1;
+background-repeat: no-repeat;
+}
+
+#hand{
+	margin: center;
+	padding: auto;
+	background-image: url("../img/scrabble-tile-holder.png");
+	background-repeat: no-repeat;
+	background-color: auto;
+	min-height: 200px;
+	
+
+}
+#tiles:first-child{
+	padding-left: 50px;
+}
+#tiles{
+	padding-top: 50px;
+	
+	width: 80px;
+    height: auto;
+	margin: 0;
+	padding-bottom: 10px;
+}
