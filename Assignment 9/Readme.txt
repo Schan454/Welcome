@@ -28,3 +28,6 @@ Additional Functionality
  (3) after playing a word, only the number of letter tiles needed to bring the player’s “hand”
 back to 7 tiles are selected ( the player will have 7 tiles, just the entire hand is shuffled :) )
  (3) score is kept for multiple words ( point system does not work yet.)
+
+assignment website
+https://schan454.github.io/Welcome/Assignment%209/index.html
